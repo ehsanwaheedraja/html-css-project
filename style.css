@@ -20,12 +20,10 @@
       font-weight: bold;  
       }
     
-      .contents-articles{
-      display: flex;
-      flex-direction: row-reverse;
-      flex-wrap: wrap;
-      text-align: center; 
-      padding-right: 210px;
+      .grid-container {
+        display: inline-grid;
+        text-align: center;
+        padding-right: 210px;
       } 
       
       .site-footer {
