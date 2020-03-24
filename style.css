@@ -7,7 +7,10 @@
   body {
     background-color:#f4f4f4;
     }
-    
+   p {
+     text-align: justify;
+   }
+   .small-image{ width: 100px;}
   .site-header {
       background-color:#000;
       margin:0;
@@ -16,25 +19,14 @@
       color:white;
       font-weight: bold;  
       }
-    article {
-        text-align: center;
-      
-        
-      }
+    
       .contents-articles{
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       flex-wrap: wrap;
-      padding-right: 100px;
-      
-     
-      }
-      article:first-child {
-        border-left-style: solid;
-        border-color: blue;
-        background-color: burlywood;
-
-      }
+      text-align: center; 
+      padding-right: 210px;
+      } 
       
       .site-footer {
         text-align: right;
@@ -43,11 +35,7 @@
         height: 100%; /* Full-height: remove this if you want "auto" height */
         width: 210px; /* Set the width of the sidebar */
         position: absolute; /* Fixed Sidebar (stay in place on scroll) */
-        /*z-index: 1;  Stay on top */
-        top: 0; /* Stay at the top */
+       top: 0; /* Stay at the top */
       right: 0;
-        
-        overflow-x: hidden; /* Disable horizontal scroll */
-        overflow-y:hidden;
         padding-top: 150px;
       }
